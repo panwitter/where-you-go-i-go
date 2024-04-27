@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vidio player</title>
+    <link rel="stylesheet" href="./accets/css/style.css" />
+    <script defer src="./accets/js/index.js"></script>
+  </head>
+  <body>
+    <video
+      poster="./accets/images/WHAT.jpg"
+      src="./accets/video/WE ARE JAPANESE GOBLIN [MMD].mp4"
+    ></video>
+    <div class="controls-container">
+      <button id="play" class="control-btn">
+        <img src="./accets/images/icons/play.svg" alt="" />
+      </button>
+      <button id="vol" class="control-btn">
+        <img src="./accets/images/icons/fullvol.svg" alt="" />
+      </button>
+      <input min="0" max="1" step="0.1" type="range" id="volume-range" />
+      <button id="next" class="control-btn">
+        <img src="./accets/images/icons/next.svg" alt="" />
+      </button>
+      <button id="scale" class="control-btn">
+        <img src="./accets/images/icons/scale.svg" alt="" />
+      </button>
+    </div>
+  </body>
+</html>
